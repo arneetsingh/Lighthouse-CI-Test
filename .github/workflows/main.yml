@@ -9,7 +9,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls:
-            https://arneetsingh/Lighthouse-CI-Test/
+            https://arneetsingh.github.io/sandbox/Lighthouse-Demo/
       - name: Save results
         uses: actions/upload-artifact@v1
         with:
